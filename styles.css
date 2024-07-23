@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    font-family: 'inter', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    height: 500px;
+    width: 350px;
+}
+
+.image {
+    border-radius: 150px;
+    height: 100px;
+}
+
+.bio {
+    padding-bottom: 15px;
+}
+
+.location {
+    color: yellow;
+    padding-bottom: 15px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.socialLinks p {
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.socialLinks p a {
+    color: white;
+    text-decoration: none;
+}
+
+.socialLinks p:hover {
+    cursor: pointer;
+    background-color: rgb(218, 218, 11);
+}
+
+.socialLinks p:hover a {
+    color: black;
+}
+
+footer a {
+    color: white;
+}
